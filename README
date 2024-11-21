@@ -25,36 +25,6 @@ secret-game/
 4. The game will provide feedback on whether the secret number is higher or lower than your guess.
 5. If you guess the correct number, the game will display a success message and enable the "Nuevo juego" button to start a new game.
 
-## Functions
-
-### `asignarTextoElemento(elemento, texto)`
-
-Updates the inner HTML of the specified element with the provided text.
-
-### `verificarIntento()`
-
-Checks the user's guess against the secret number and provides feedback.
-
-### `condicionesIniciales()`
-
-Sets up the initial conditions for the game, including generating a new secret number and resetting the attempt counter.
-
-### `reiniciarJuego()`
-
-Resets the game to its initial state, including clearing the input box and disabling the "Nuevo juego" button.
-
-### `limpiarCaja()`
-
-Clears the value of the input box.
-
-### `generarNumeroSecreto()`
-
-Generates a random secret number between 1 and the maximum number (10) and ensures it hasn't been used before.
-
-## Styles
-
-The styles for the game are defined in `style.css`, including layout, colors, and fonts.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
