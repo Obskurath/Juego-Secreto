@@ -1,0 +1,60 @@
+# JS Secret Number Game
+
+This is a simple web-based game where the user tries to guess a secret number. The game provides feedback on whether the guessed number is higher or lower than the secret number.
+
+## Project Structure
+```
+secret-game/
+├── app.js
+├── img/
+│   ├── Ruido.png
+│   └── ia.png
+├── index.html
+└── style.css
+```
+- `app.js`: Contains the game logic and functions.
+- `img/`: Contains images used in the game.
+- `index.html`: The main HTML file that sets up the structure of the web page.
+- `style.css`: Contains the styles for the game.
+
+## How to Play
+
+1. Open `index.html` in a web browser.
+2. Enter a number between 1 and 10 in the input box.
+3. Click the "Intentar" button to submit your guess.
+4. The game will provide feedback on whether the secret number is higher or lower than your guess.
+5. If you guess the correct number, the game will display a success message and enable the "Nuevo juego" button to start a new game.
+
+## Functions
+
+### `asignarTextoElemento(elemento, texto)`
+
+Updates the inner HTML of the specified element with the provided text.
+
+### `verificarIntento()`
+
+Checks the user's guess against the secret number and provides feedback.
+
+### `condicionesIniciales()`
+
+Sets up the initial conditions for the game, including generating a new secret number and resetting the attempt counter.
+
+### `reiniciarJuego()`
+
+Resets the game to its initial state, including clearing the input box and disabling the "Nuevo juego" button.
+
+### `limpiarCaja()`
+
+Clears the value of the input box.
+
+### `generarNumeroSecreto()`
+
+Generates a random secret number between 1 and the maximum number (10) and ensures it hasn't been used before.
+
+## Styles
+
+The styles for the game are defined in `style.css`, including layout, colors, and fonts.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
